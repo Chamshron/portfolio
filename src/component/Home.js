@@ -1,41 +1,55 @@
 import React from 'react';
 import styled from 'styled-components';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import EmailIcon from '@mui/icons-material/Email';
+import JavaScriptIcon from '@mui/icons-material/Javascript'
+import CssIcon from '@mui/icons-material/Css';
+import HtmlIcon from '@mui/icons-material/Html';
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
 
-const About = styled.p`
-    grid-row-start:2;
-    justify-content: center;
-    display: flex;
-`
+
 const Body = styled.body`
-    display: grid;
-    grid-template-columns:40% 1fr 1fr;
-    grid-template-rows: 40% 1fr 1fr;
+    text-align:center;
     background-color: #FFF5E0;
     gap: 4em;
 `
-
 const Ptag = styled.p`
     color: #141E46;
-    font-size: 2em;
-    font-weight: bold;
-    flex-wrap:wrap;
-    align-content: stretch;
+    font-size: 50px;
+    text-align:2em;
+`
+const WelcomeTitle = styled.h1`
+    text-align:center;
+    font-family: roboto;
+    font-size: 75px;
 `
 
 const Home = () => {
     return ( 
-        <Body>
-            <About>
+        <Body className='welcome-body'>
+                
+                <WelcomeTitle>Hi, my name is Emma Cameron</WelcomeTitle>
+                
                 <Ptag>
-                Hello there!
-                <br></br>
-                Thanks for taking the time to check out my portfolio.
-                <br></br>
-                You'll find more information about me in the 'About' section, as well as some example projects I've worked on in the 'Portfolio' section.
-                <br></br>
-                Feel free to take a look around!
+                    I am a junior software engineer with a background in Customer Support.
                 </Ptag>
-            </About>
+                <div>
+                    <JavaScriptIcon/>
+                    <CssIcon/>
+                    <HtmlIcon/>
+
+                </div>
+                <div>
+                <LinkedInIcon/>
+                <GitHubIcon/>
+                <EmailIcon/>
+                </div>
+
+                
         </Body>
      );
 }
