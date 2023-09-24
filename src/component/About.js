@@ -39,7 +39,7 @@ const About = () => {
         <div className='body'>
             <AboutHeader>About Me</AboutHeader>
             <ImageContainer>
-                <img src={ECam}/>
+                <img className='profile' src={ECam}/>
             </ImageContainer>
 
             <AboutSubSubHeading>A small introduction about myself</AboutSubSubHeading>
