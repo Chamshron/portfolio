@@ -10,6 +10,10 @@
   margin: 0;
 }
 
+img{
+  border-radius: 1000px;
+}
+
 
 body{
   padding: 0;
@@ -62,7 +66,7 @@ li a:hover{
   font-size: 1em;
   font-weight: bold;
   padding: 1.5em;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
 }
@@ -77,3 +81,9 @@ li a:hover{
   100% {opacity: 1;}
   
 }
+
+.ExamplePhotos {
+  height: 20em;
+  width: 25em;
+}
+
