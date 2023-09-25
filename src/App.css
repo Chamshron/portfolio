@@ -66,7 +66,7 @@ li a:hover{
   font-size: 1em;
   font-weight: bold;
   padding: 1.5em;
-  position: relative;
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
@@ -86,4 +86,5 @@ li a:hover{
   height: 20em;
   width: 25em;
 }
+
 

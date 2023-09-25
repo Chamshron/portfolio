@@ -1,11 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import EmailIcon from '@mui/icons-material/Email';
-import JavaScriptIcon from '@mui/icons-material/Javascript'
-import CssIcon from '@mui/icons-material/Css';
-import HtmlIcon from '@mui/icons-material/Html';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
@@ -37,19 +31,6 @@ const Home = () => {
                 <Ptag>
                     I am a junior software engineer with a background in Customer Support.
                 </Ptag>
-                <div>
-                    <JavaScriptIcon/>
-                    <CssIcon/>
-                    <HtmlIcon/>
-
-                </div>
-                <div>
-                <LinkedInIcon/>
-                <GitHubIcon/>
-                <EmailIcon/>
-                </div>
-
-                
         </Body>
      );
 }

@@ -24,6 +24,7 @@ const Paragraph = styled.p`
     text-align:center;
     font-family: roboto;
     font-size: 20px;
+    padding-bottom:5em;
 `
 
 const ImageContainer = styled.body`
